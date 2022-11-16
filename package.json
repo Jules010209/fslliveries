@@ -1,0 +1,31 @@
+{
+  "name": "fslliveries",
+  "version": "1.0.0",
+  "description": "Flight simulator launcher for install liveries approuved by their author !",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jules010209/fslliveries.git"
+  },
+  "keywords": [
+    "flight",
+    "simulator",
+    "liveries",
+    "flightsimulator",
+    "launcher"
+  ],
+  "author": "Jules010209",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/Jules010209/fslliveries/issues"
+  },
+  "homepage": "https://github.com/Jules010209/fslliveries#readme",
+  "devDependencies": {
+    "ejs": "^3.1.8",
+    "electron": "^21.2.3",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "application": {
+        "name": "FSLLiveries",
+        "sus-name": "Flight Simulator Launcher Liveries",
+        "version": "0.0.10.0",
+        "port": "1092",
+        "path": "/"
+    },
+    "simOptions": {
+        "communityPath": "/",
+        "packagePath": "/"
+    },
+    "mainFile": "index.js"
+}
