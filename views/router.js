@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.set('view engine', 'ejs');
-app.use('/', express.static('public'));
+app.use(express.static(__dirname + '/'));
 
 app.get('/', async(req, res) => {
     res.render('pages/index', {

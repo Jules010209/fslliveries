@@ -6,9 +6,31 @@
     <title>FSLLiveries | Config</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src='assets/js/config.js'></script>
 </head>
 <body>
-    <%= communityPath %>
+    <main>
+        <div class="row">
+            <div class="column">
+                <div id="selectSource">
+                    <input type="file" name="folderName" id="folderName" class="inputfile" webkitdirectory />
+                    <label for="folderName">Select a Source Directory</label>
+                </div>
+            </div>
+            <div class="column">
+                <input type="text" id="sourceDirPath" class="myInput"/>
+            </div>
+        </div>
+        <!-- <form>
+            <div>
+                <input type="file" name="packagePath" placeholder="<%= packagePath %>" required>
+                <input type="button" value="Valid" name="packageButton" required>
+            </div>
+            <div>
+                <input type="file" webkitdirectory directory name="communityPath" placeholder="<%= communityPath %>" required>
+                <input type="button" value="Valid" name="communityButton" required>
+            </div>
+        </form> -->
+    </main>
 </body>
 </html>
