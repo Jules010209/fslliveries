@@ -15,7 +15,11 @@ function createWindow() {
         }
     });
     
-    win.loadURL(`http://localhost:${config.application.port}`);
+    if(config.simOptions.communityPath !== '/') {
+        win.loadURL(`http://localhost:${config.application.port}`);
+    } else {
+        win.loadURL(`http://localhost:${config.application.port}/config`);
+    }
 }
 
 app.whenReady().then(() => {
